@@ -30,7 +30,7 @@ Follow the steps below to set up and run the project locally:
 
 ```bash
 # 1. Create and Activate Virtual Environment
-uv venv .venv
+uv venv 
 source .venv/bin/activate
 
 # 2. Install Dependencies
