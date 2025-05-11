@@ -1,0 +1,23 @@
+[project]
+name = "multi-agent-content-creation-workflow"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Muhammad Aneeque", email = "aneeq.khatri@celeritasdigital.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chainlit>=2.5.5",
+    "dotenv>=0.9.9",
+    "openai-agents>=0.0.14",
+    "requests>=2.32.3",
+    "streamlit>=1.45.0",
+]
+
+[project.scripts]
+multi-agent-content-creation-workflow = "multi_agent_content_creation_workflow:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

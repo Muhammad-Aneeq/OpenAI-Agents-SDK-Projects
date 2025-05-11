@@ -1,0 +1,23 @@
+[project]
+name = "airline-customer-service-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Muhammad Aneeque", email = "aneeq.khatri@celeritasdigital.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chainlit>=2.5.5",
+    "openai-agents>=0.0.14",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.3",
+    "rich>=14.0.0",
+]
+
+[project.scripts]
+airline-customer-service-agent = "airline_customer_service_agent:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
